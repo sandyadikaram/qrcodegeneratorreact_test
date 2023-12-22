@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --space: 0.3rem;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  border: 0;
+  padding: 1.2rem;
+  color: #222;
+  font-size: 1.3rem;
+  background: #eee;
+  border-radius: var(--space);
+}
+
+input {
+  width: 60%;
+  padding: 0.5rem 0.8rem;
+  border-radius: var(--space);
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  outline: 0;
+  transition: all 0.36s ease-in-out;
+}
+
+input:focus {
+  width: 100%;
+}
+
+.blinkhappy {
+  background-color: black;
+  width: 30px;
+}
+
+.textfield {
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+.qrform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.alert {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.happyImg {
+  width: 300px;
+  height: 300px;
+}
+
+.happywash {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.textlabel {
+  font-size: 15px;
+}
+
+.buttoncmn {
+  font-size:medium;
+}
+
+.happyImg {
+  width: 300px;
+  height: 300px;
+}

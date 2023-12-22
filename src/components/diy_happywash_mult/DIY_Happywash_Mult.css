@@ -1,0 +1,21 @@
+.alert {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .diymulimg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .textlabel {
+    font-size: 15px;
+  }
+
+  .buttoncmn {
+    font-size:medium;
+  }
