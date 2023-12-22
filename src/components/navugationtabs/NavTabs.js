@@ -55,7 +55,7 @@ function MyTabs() {
     // This means that if you have nested routes like:
     // users, users/new, users/edit.
     // Then the order should be ['users/add', 'users/edit', 'users'].
-    const routeMatch = useRouteMatch(['/happywash', '/fuel', '/happywash', '/happywashdiy', '/happywashmul']);
+    const routeMatch = useRouteMatch(['/happywashdiymul', '/happywashdiy', '/fuel', '/happywashmul', '/happywash',]);
     const currentTab = routeMatch?.pattern?.path;
 
     return (

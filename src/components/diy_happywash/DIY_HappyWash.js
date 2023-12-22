@@ -32,7 +32,7 @@ function QrGenerate() {
         context.font = "bold 38px Arial";
         context.fillStyle = "black";
         context.fillText(site, 45, 875);
-        context.fillText("Happywash", 635, 875);
+        context.fillText("HW T:" + hwtype + " B:" + hwbay, 635, 875);
         if (canvas) {
             const pngUrl = canvas
                 .toDataURL("image/png")
@@ -52,8 +52,11 @@ function QrGenerate() {
             setSiteCode(1)
             setQRDesc(valuelink);
             var site = sitenameR.current.value;
+            var type = washTypeR.current.value;
+            var bay = washBayR.current.value;
+
             setTimeout(() => {
-                designQRElement(site)
+                designQRElement(site, type, bay)
             }, 750);
             setHideForm(1)
             e.preventDefault();
@@ -110,8 +113,7 @@ function QrGenerate() {
                     (
                         <div>
                             <img
-                            className="happyImg"
-                                src={images.happywash}
+                                src={images.diysingle}
                                 loading="lazy"
                                 alt=""
                             />
@@ -119,7 +121,7 @@ function QrGenerate() {
                                 my={2}
 
                                 sx={{
-                                    width: 380,
+                                    width: '380',
                                     maxWidth: '90%',
                                     margin: '0 0 2% 5%',
                                 }}

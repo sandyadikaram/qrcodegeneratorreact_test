@@ -3,7 +3,8 @@ const images = {
   happywash: require('./images/happywash.png'),
   fuel: require('./images/fuel.png'),
   happwashmulti: require('./images/happywashmulti.png'),
-  diymulti: require('./images/hwdiymulti.png')
+  diymulti: require('./images/hwdiymulti.png'),
+  diysingle: require('./images/dog_wash.png'),
 }
 
 export default images;
