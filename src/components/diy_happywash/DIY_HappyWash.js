@@ -112,7 +112,7 @@ function QrGenerate() {
                     hide === 0 &&
                     (
                         <div>
-                            <img
+                            <img 
                                 src={images.diysingle}
                                 loading="lazy"
                                 alt=""
@@ -121,9 +121,8 @@ function QrGenerate() {
                                 my={2}
 
                                 sx={{
-                                    width: '380',
-                                    maxWidth: '90%',
-                                    margin: '0 0 2% 5%',
+                                    width: 500,
+                                    maxWidth: '100%',
                                 }}
                             >
                                 <TextField required className="textfield" fullWidth label={<span className={'textlabel'}>Site Name</span>} id="sitename" inputRef={sitenameR} />
@@ -132,9 +131,8 @@ function QrGenerate() {
                                 style={{ color: "white" }}
                                 mb={2}
                                 sx={{
-                                    width: '380',
-                                    maxWidth: '90%',
-                                    margin: '0 0 2% 5%',
+                                    width: 500,
+                                    maxWidth: '100%',
                                 }}
                             >
                                 <TextField required className="textfield" fullWidth label={<span className={'textlabel'}>Site Code</span>} id="sitecode" inputRef={sitecodeR} />
@@ -143,9 +141,8 @@ function QrGenerate() {
                                 style={{ color: "white" }}
                                 mb={2}
                                 sx={{
-                                    width: '380',
-                                    maxWidth: '90%',
-                                    margin: '0 0 2% 5%',
+                                    width: 500,
+                                    maxWidth: '100%',
                                 }}
                             >
                                 <TextField required className="textfield" fullWidth label={<span className={'textlabel'}>Wash Type</span>} id="sitecode" inputRef={washTypeR} />
@@ -154,9 +151,8 @@ function QrGenerate() {
                                 style={{ color: "white" }}
                                 mb={2}
                                 sx={{
-                                    width: '380',
-                                    maxWidth: '90%',
-                                    margin: '0 0 2% 5%',
+                                    width: 500,
+                                    maxWidth: '100%',
                                 }}
                             >
                                 <TextField required className="textfield" fullWidth label={<span className={'textlabel'}>Wash Bay</span>} id="sitecode" inputRef={washBayR} />

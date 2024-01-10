@@ -181,8 +181,7 @@ function QrGenerate() {
                     (
                         <div>
                              <img
-                             className="diymulimg"
-                                src={images.diymulti}
+                             src={images.diysingle}
                                 loading="lazy"
                                 alt=""
                             />

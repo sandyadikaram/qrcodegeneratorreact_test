@@ -72,8 +72,9 @@ input:focus {
 }
 
 .happyImg {
-  width: 500px;
-  height: 150px;
+  width: 50%;
+  height: 30%;
+  display: 'block';
 }
 
 .happywash {
