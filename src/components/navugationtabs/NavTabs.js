@@ -60,10 +60,10 @@ function MyTabs() {
 
     return (
         <Tabs value={currentTab} centered>
-            <Tab label={<span className={'tab'}>HAPPY WASH</span>} value="/happywash" to="/happywash" component={Link} />
-            <Tab label={<span className={'tab'}>HW DIY</span>} value="/happywashdiy" to="/happywashdiy" component={Link} />
             <Tab label={<span className={'tab'}>FUEL</span>} value="/fuel" to="/fuel" component={Link} />
+            <Tab label={<span className={'tab'}>HAPPY WASH</span>} value="/happywash" to="/happywash" component={Link} />
             <Tab label={<span className={'tab'}>HAPPY WASH (MULTIPLE)</span>} value="/happywashmul" to="/happywashmul" component={Link} />
+            <Tab label={<span className={'tab'}>HW DIY</span>} value="/happywashdiy" to="/happywashdiy" component={Link} />
             <Tab label={<span className={'tab'}>HW DIY(MULTIPLE)</span>} value="/happywashdiymul" to="/happywashdiymul" component={Link} />
         </Tabs>
     );
